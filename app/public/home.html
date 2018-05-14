@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+  <style>
+        body{
+            background: white;
+        }
+    
+        h2{
+            color: white;
+        }
+    
+        .select-wrapper+label {
+            position: absolute;
+            top: -26px;
+            font-size: 1.3rem;
+        }
+    
+        .select-wrapper input.select-dropdown {
+            margin: 30px 0 30px 0;
+        }
+    
+        .container {
+            margin: 30px auto 30px auto;
+            border-radius: 5px;
+        }
+    
+        button#submit.waves-effect.waves-light.btn {
+            margin-bottom: 15px;
+        }
+    
+        .row .col.s12 {
+            border-radius: 5px 5px 0 0;
+        }
+    
+        .brand-logo {
+            font-family: 'Shrikhand', cursive;
+            margin-left: 20px;
+        }
+    
+          
+        ul.dropdown-content.select-dropdown li:not(.disabled) span { 
+            color: #020101;
+        }
+    
+        input#photo.form-control:focus {
+            border-bottom: 1px solid #000000;
+            box-shadow: 0 1px 0 0 #020101;
+        }
+    
+        input#name.form-control:focus {
+            border-bottom: 1px solid #000000;
+            box-shadow: 0 1px 0 0 #020101;
+        }
+    
+        .select-wrapper input.select-dropdown:focus {
+            border-bottom: 1px solid #020101;
+        }
+    
+        /* .row .col {
+            padding: 0;
+        } */
+    
+        /* .row .col.s6 {
+            margin-left: 2rem;
+        }
+    
+        .input-field.col label{
+            left: 0;
+        } */
+    
+        @media only screen and (min-width: 993px){
+            .container {
+                width: 70%;
+            }  
+        }
+        
+        .other-color {
+            background: white;
+        }
+    
+        .parallax-container {
+          height: 25rem;
+        }
+      </style>
+
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper black accent-2">
+                <a href="/home" class="brand-logo">friend finder</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="/survey">Survey</a></li>
+                    <li><a href="https://github.com/javtech95/FriendFinder">Github</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="http://wheresthebrandy.files.wordpress.com/2014/01/degiralomo_1029.jpg"></div>
+    </div>
+              
+
+  <div class="section white">
+    <div class="container">
+    <div class="col s12">
+      <h1>Match with some new people!</h1>
+      <h3>Answer a few basic questions. </h3>
+      <h3>Then find the friend with the greatest compatibility!</h3>
+      <br>
+
+      <div>
+        <a href="/survey"><button type="button" class="waves-effect waves-light btn black accent-2">Go to Survey</button></a>
+      </div>
+
+    </div>
+</div>
+</div>
+
+<div class="parallax-container">
+        <div class="parallax"><img src="http://cdn.knowledgehi.com/1920x1200/20121207/lights%20hands%20rave%20disco%20bokeh%20dancing%201920x1200%20wallpaper_www.knowledgehi.com_6.jpg"></div>
+</div>
+
+
+
+    <footer class="page-footer black accent-2">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Footer Content</h5>
+                  <p class="grey-text text-lighten-4"></p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Links</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/javtech95/FriendFinder">Github</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2018 Friend_Finder
+              </div>
+            </div>
+          </footer>
+
+          <script>
+              $(document).ready(function(){
+                 $('.parallax').parallax();
+            });
+
+          </script>
+
+</body>
+
+</html>
